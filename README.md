@@ -35,14 +35,18 @@ Agregar commits a GitHub
 git add .
 ```
 
-```git status
+```
+git status
 ```
 
-```git commit -m "acción"
+```
+git commit -m "acción"
 ```
 
-```# "n" files changed"
+```
+# "n" files changed"
 ```
 
-```git push
+```
+git push
 ```
