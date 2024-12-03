@@ -35,18 +35,18 @@ Agregar commits a GitHub
 git add .
 ```
 
-```
+```ruby
 git status
 ```
 
-```
+```ruby
 git commit -m "acción"
 ```
 
-```
+```ruby
 # "n" files changed"
 ```
 
-```
+```ruby
 git push
 ```
