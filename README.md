@@ -64,10 +64,10 @@ Esta librería contiene funciones para convertir latitudes y longitudes en strin
 ```ruby
 la función h3.geo_to_h3 se suplantó en la nueva versión por h3.latlng_to_cell
 ```
-## Conocimiento importante
-### para seguir avanzando
 
+## Conocimiento importante para seguir avanzando
 ### Anaconda > Environments > Kernel con librerías cargadas en Anaconda PowerShell Prompt
+Librerías: pandas, geopandas, matplotlib, folium
 
 ### PostgreSQL > PostGIS (QGIS)
 Existen ejemplos de trabajos realizados con H3 dentro de PostGIS.
