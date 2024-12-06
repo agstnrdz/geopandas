@@ -64,6 +64,7 @@ Esta librería contiene funciones para convertir latitudes y longitudes en strin
 ```ruby
 la función h3.geo_to_h3 se suplantó en la nueva versión por h3.latlng_to_cell
 ```
+Los desarrolladores dicen que la última versión es la v4. Puedo ver [este repositorio](https://uber.github.io/h3-py/polygon_tutorial.html) para las operaciones con polígonos y también existe uno para la [versión 4 completa](https://uber.github.io/h3-py/api_quick.html).
 
 ## Conocimiento importante para seguir avanzando
 ### Anaconda > Environments > Kernel con librerías cargadas en Anaconda PowerShell Prompt
