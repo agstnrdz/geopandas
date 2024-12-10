@@ -76,5 +76,5 @@ Existen ejemplos de trabajos realizados con H3 dentro de PostGIS.
 ### Visual Studio Code > Jupyter Notebook > Python
 Librerías: pandas, geopandas, matplotlib, folium, h3.
 
-### Software ETL (Extract, Transform and Load) > FME Desktop
+### ETL Software (Extract, Transform and Load) > FME Desktop
 Visualizador SIG de escritorio. Input, gestión, transformación y output de datos geoespaciales. Se puede trabajar con extensiones y librerías.
