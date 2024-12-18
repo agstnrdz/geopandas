@@ -1,14 +1,14 @@
 ## Jupyter Notebook en Visual Studio Code
-Introducción a GeoPandas usando Jupyter Notebook en Visual Studio Code. La base es sustituir Anaconda para usar Jupyter Notebook aprovechando las funcionalidades, extensiones y conexiones de Visual Studio Code.
+Introducción a GeoPandas usando Jupyter Notebook en Visual Studio Code pero usando el kernel del entorno GIS de Anaconda.
 
 ### Documentación
 
-Mostrar la url del repositorio en cuestión
+Mostrar la url del repositorio activo
 ```ruby
 git remote show origin
 ```
 
-Cambiar el repositorio en cuestión
+Cambiar de repositorio
 ```ruby
 git remote remove origin
 ```
@@ -32,32 +32,33 @@ git push -f origin main
 
 Agregar commits a GitHub
 ```ruby
-git add .
-```
-
-```ruby
 git status
 ```
 
 ```ruby
-git commit -m "acción"
+git add .
 ```
 
 ```ruby
-# "n" files changed"
+git commit -m "acción" # "n" files changed"
 ```
 
 ```ruby
 git push
 ```
 
+Verificar el repositorio remoto
+```ruby
+git remote -v
+```
+
 ## R-tree Spatial Indexing with Python (S2)
 
-Practicamos la indexación espacial que explica [Geoff Boeing](https://geoffboeing.com/2016/10/r-tree-spatial-index-python/) usando GeoPandas. En este caso vamos a usar los geodataframes que venimos usando en este archivo.
+Practicar la indexación espacial que explica [Geoff Boeing](https://geoffboeing.com/2016/10/r-tree-spatial-index-python/) usando GeoPandas. En este caso usar los geodataframes usados anteriormente en este archivo.
 
 ## Hierarchical Hexagonal Geospatial Indexing System (H3)
 
-Instalamos la librería de [H3](https://h3geo.org/) en Anaconda Powershell Prompt dentro del environment GIS mediante ```conda config --add channels conda-forge```, ```conda install h3``` y ```conda install h3-py``` ya que usamos el kernel de Anaconda, que es donde tenemos las librerías instaladas.
+Instalar la librería de [H3](https://h3geo.org/) en Anaconda Powershell Prompt dentro del environment GIS mediante ```conda config --add channels conda-forge```, ```conda install h3``` y ```conda install h3-py``` ya que está en uso el kernel de Anaconda, que es donde están las librerías instaladas.
 
 Esta librería contiene funciones para convertir latitudes y longitudes en strings que representan los centroides de las celdas hexagonales. Los hexágonos tienen ventajas claras sobre las celdas de cuadrados, ya que ofrecen tamaños de celdas más uniformes y menos efectos de bordes, lo que los hace perfectos para los análisis geoespaciales. H3 tiene una resolución jerárquica y posee 16 niveles de resolución, desde una celda muy grande hasta celdas extremadamente pequeñas. Es muy eficiente para realizar operaciones geoespaciales como cálculos de distancia, contención, agregación de datos, etc. Algunos datos importantes en la [documentación](https://h3geo.org/docs/) del sistema.
 
@@ -68,13 +69,13 @@ Los desarrolladores dicen que la última versión es la v4. Puedo ver [este repo
 
 ## Conocimiento importante para seguir avanzando
 ### Anaconda > Environments > Kernel con librerías cargadas en Anaconda PowerShell Prompt
-Librerías: pandas, geopandas, matplotlib, folium
+Librerías: pandas, geopandas, matplotlib, folium, H3
 
 ### PostgreSQL > PostGIS (QGIS)
-Existen ejemplos de trabajos realizados con H3 dentro de PostGIS.
+Existen ejemplos de trabajos realizados con H3 dentro de PostGIS
 
 ### Visual Studio Code > Jupyter Notebook > Python
-Librerías: pandas, geopandas, matplotlib, folium, h3.
+Librerías: pandas, geopandas, matplotlib, folium, h3
 
 ### ETL Software (Extract, Transform and Load) > FME Desktop
-Visualizador SIG de escritorio. Input, gestión, transformación y output de datos geoespaciales. Se puede trabajar con extensiones y librerías.
+Visualizador SIG de escritorio. Input, gestión, transformación y output de datos geoespaciales. Se puede trabajar con extensiones y librerías
