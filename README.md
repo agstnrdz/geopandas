@@ -12,39 +12,21 @@ git remote -v
 Cambiar de repositorio
 ```ruby
 git remote remove origin
-```
-
-```ruby
 git remote add origin /url/
 ```
 
 En caso de que rechace el push
 ```ruby
 git fetch origin
-```
-
-```ruby
 git reset --hard origin/main
-```
-
-```ruby
 git push -f origin main
 ```
 
 Agregar commits a GitHub
 ```ruby
 git status
-```
-
-```ruby
 git add .
-```
-
-```ruby
 git commit -m "acción" # "n" files changed"
-```
-
-```ruby
 git push
 ```
 
