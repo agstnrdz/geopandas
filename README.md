@@ -3,9 +3,10 @@ Introducción a GeoPandas usando Jupyter Notebook en Visual Studio Code pero usa
 
 ### Documentación
 
-Mostrar la url del repositorio activo
+Verificar el repositorio remoto
 ```ruby
 git remote show origin
+git remote -v
 ```
 
 Cambiar de repositorio
@@ -45,11 +46,6 @@ git commit -m "acción" # "n" files changed"
 
 ```ruby
 git push
-```
-
-Verificar el repositorio remoto
-```ruby
-git remote -v
 ```
 
 ## R-tree Spatial Indexing with Python (S2)
