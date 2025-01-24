@@ -43,7 +43,7 @@ Esta librería contiene funciones para convertir latitudes y longitudes en strin
 ```ruby
 la función h3.geo_to_h3 se suplantó en la nueva versión por h3.latlng_to_cell
 ```
-Los desarrolladores dicen que la última versión es la v4. Puedo ver [este repositorio](https://uber.github.io/h3-py/polygon_tutorial.html) para las operaciones con polígonos y también existe uno para la [versión 4 completa](https://uber.github.io/h3-py/api_quick.html).
+Los desarrolladores dicen que la última versión es la v4. Puedo ver [este](https://uber.github.io/h3-py/polygon_tutorial.html) repositorio para las operaciones con polígonos y también existe uno para la [versión 4 completa](https://uber.github.io/h3-py/api_quick.html).
 
 Importante: para obtener los códigos de celda de cada objeto espacial a través del comando ```h3.geo_to_cells(geo, res = 10)``` de la biblioteca h3, la capa vectorial debe estar proyectada en un sistema de referencia de coordenadas geocentrico (WGS84, EPSG: 4326).
 
