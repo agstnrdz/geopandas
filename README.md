@@ -49,7 +49,7 @@ Importante: para obtener los códigos de celda de cada objeto espacial a través
 
 ## Conocimiento importante para seguir avanzando
 ### Anaconda > Environments > Kernel con librerías cargadas en Anaconda PowerShell Prompt
-Librerías: pandas, geopandas, matplotlib, folium, H3
+Librerías: pandas, geopandas, matplotlib, folium, shapely, H3
 
 ### PostgreSQL > PostGIS (QGIS)
 Existen ejemplos de trabajos realizados con H3 dentro de PostGIS
