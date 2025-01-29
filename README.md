@@ -14,7 +14,7 @@ git remote remove origin
 git remote add origin /url/
 ```
 
-Verificar el repositorio remoto
+Verificar el repositorio
 ```ruby
 git remote show origin
 git remote -v
