@@ -3,16 +3,21 @@ Introducción a GeoPandas usando Jupyter Notebook en Visual Studio Code pero usa
 
 ### Documentación
 
-Verificar el repositorio remoto
+Inicializar el repositorio
 ```ruby
-git remote show origin
-git remote -v
+git init
 ```
 
 Cambiar de repositorio
 ```ruby
 git remote remove origin
 git remote add origin /url/
+```
+
+Verificar el repositorio remoto
+```ruby
+git remote show origin
+git remote -v
 ```
 
 En caso de que rechace el push
