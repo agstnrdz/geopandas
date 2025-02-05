@@ -65,5 +65,7 @@ Librerías: pandas, geopandas, matplotlib, folium, h3.
 ### ETL Software (Extract, Transform and Load) > FME Desktop
 Visualizador SIG de escritorio. Input, gestión, transformación y output de datos geoespaciales. Se puede trabajar con extensiones y librerías.
 
-### Arquitectura de geoportales
-Bases de datos (PostgreSQL > PostGIS), Geoserver, Leaflet
+### Arquitectura de Geoportales
+Bases de datos (PostgreSQL > PostGIS), Geoserver, Leaflet (Frontend y Backend).
+
+el chabon de CAEG es un trucho
