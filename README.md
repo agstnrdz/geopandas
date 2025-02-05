@@ -67,5 +67,3 @@ Visualizador SIG de escritorio. Input, gestión, transformación y output de dat
 
 ### Arquitectura de Geoportales
 Bases de datos (PostgreSQL > PostGIS), Geoserver, Leaflet (Frontend y Backend).
-
-el chabon de CAEG es un trucho
