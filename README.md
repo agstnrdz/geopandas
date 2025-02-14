@@ -66,4 +66,4 @@ Librerías: pandas, geopandas, matplotlib, folium, h3.
 Visualizador SIG de escritorio. Input, gestión, transformación y output de datos geoespaciales. Se puede trabajar con extensiones y librerías.
 
 ### Arquitectura de Geoportales
-Bases de datos (PostgreSQL > PostGIS), Geoserver, Leaflet (Frontend y Backend).
+Bases de datos (PostgreSQL > PostGIS), Geoserver, Leaflet
