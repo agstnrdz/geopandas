@@ -68,5 +68,5 @@ Visualizador SIG de escritorio. Input, gestión, transformación y output de dat
 ### Arquitectura de Geoportales
 Bases de datos (PostgreSQL > PostGIS), Geoserver, Leaflet
 
-### IDE MCR
+### Infraestructura de Datos Espaciales Municipalidad de Comodoro Rivadavia
 Apache Tomcat, GeoServer, MapStore, GeoNetwork
