@@ -67,3 +67,6 @@ Visualizador SIG de escritorio. Input, gestión, transformación y output de dat
 
 ### Arquitectura de Geoportales
 Bases de datos (PostgreSQL > PostGIS), Geoserver, Leaflet
+
+### IDE MCR
+Apache Tomcat, GeoServer, MapStore, GeoNetwork
