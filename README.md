@@ -56,17 +56,8 @@ Importante: para obtener los códigos de celda de cada objeto espacial a través
 ### Anaconda > Environments > Kernel con librerías cargadas en Anaconda PowerShell Prompt
 Librerías: pandas, geopandas, matplotlib, folium, shapely, H3.
 
-### PostgreSQL > PostGIS (QGIS)
-Existen ejemplos de trabajos realizados con H3 dentro de PostGIS.
-
 ### Visual Studio Code > Jupyter Notebook > Python
 Librerías: pandas, geopandas, matplotlib, folium, h3.
 
 ### ETL Software (Extract, Transform and Load) > FME Desktop
 Visualizador SIG de escritorio. Input, gestión, transformación y output de datos geoespaciales. Se puede trabajar con extensiones y librerías.
-
-### Arquitectura de Geoportales
-Bases de datos (PostgreSQL > PostGIS), Geoserver, Leaflet
-
-### Infraestructura de Datos Espaciales
-Apache Tomcat, GeoServer, MapStore, GeoNetwork
