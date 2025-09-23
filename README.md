@@ -1,5 +1,4 @@
-## Jupyter Notebook en Visual Studio Code
-##### Introducción a GeoPandas usando Jupyter Notebook en Visual Studio Code pero usando el kernel del entorno GIS de Anaconda.
+## Introducción a GeoPandas usando Jupyter Notebook en Visual Studio Code
 
 ### Documentación
 
@@ -40,11 +39,11 @@ En caso de hacer cambios en GitHub y tener que actualizarlos en VSC
 git pull origin main --allow-unrelated-histories
 ```
 
-## R-tree Spatial Indexing with Python (S2)
+### R-tree Spatial Indexing with Python (S2)
 
 Indexación espacial explicada en el demo de [Geoff Boeing](https://geoffboeing.com/2016/10/r-tree-spatial-index-python/) usando GeoPandas. En este caso usar los geodataframes usados anteriormente en este archivo.
 
-## Hierarchical Hexagonal Geospatial Indexing System (H3)
+### Hierarchical Hexagonal Geospatial Indexing System (H3)
 
 Instalar la librería de [H3](https://h3geo.org/) en Anaconda Powershell Prompt dentro del environment GIS mediante ```conda config --add channels conda-forge```, ```conda install h3``` y ```conda install h3-py``` ya que está en uso el kernel de Anaconda, que es donde están las librerías instaladas.
 
