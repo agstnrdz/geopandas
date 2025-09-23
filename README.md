@@ -37,7 +37,7 @@ git push
 
 ## R-tree Spatial Indexing with Python (S2)
 
-Practicar la indexación espacial que explica [Geoff Boeing](https://geoffboeing.com/2016/10/r-tree-spatial-index-python/) usando GeoPandas. En este caso usar los geodataframes usados anteriormente en este archivo.
+Indexación espacial explicada en el demo de [Geoff Boeing](https://geoffboeing.com/2016/10/r-tree-spatial-index-python/) usando GeoPandas. En este caso usar los geodataframes usados anteriormente en este archivo.
 
 ## Hierarchical Hexagonal Geospatial Indexing System (H3)
 
@@ -56,17 +56,8 @@ Importante: para obtener los códigos de celda de cada objeto espacial a través
 ### Anaconda > Environments > Kernel con librerías cargadas en Anaconda PowerShell Prompt
 Librerías: pandas, geopandas, matplotlib, folium, shapely, H3.
 
-### PostgreSQL > PostGIS (QGIS)
-Existen ejemplos de trabajos realizados con H3 dentro de PostGIS.
-
 ### Visual Studio Code > Jupyter Notebook > Python
 Librerías: pandas, geopandas, matplotlib, folium, h3.
 
 ### ETL Software (Extract, Transform and Load) > FME Desktop
 Visualizador SIG de escritorio. Input, gestión, transformación y output de datos geoespaciales. Se puede trabajar con extensiones y librerías.
-
-### Arquitectura de Geoportales
-Bases de datos (PostgreSQL > PostGIS), Geoserver, Leaflet
-
-### Infraestructura de Datos Espaciales Municipalidad de Comodoro Rivadavia
-Apache Tomcat, GeoServer, MapStore, GeoNetwork
