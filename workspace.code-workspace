@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"name": "geopandas",
+			"path": "geopandas"
+		},
+		{
+			"name": "postgreSQL",
+			"path": "postgreSQL"
+		},
+		{
+			"path": "webmap"
+		},
+		{
+			"path": "R"
+		},
+		{
+			"path": "gitweb"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "webmap"
+	}
+}
