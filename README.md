@@ -1,5 +1,5 @@
 ## Jupyter Notebook en Visual Studio Code
-Introducción a GeoPandas usando Jupyter Notebook en Visual Studio Code pero usando el kernel del entorno GIS de Anaconda.
+##### Introducción a GeoPandas usando Jupyter Notebook en Visual Studio Code pero usando el kernel del entorno GIS de Anaconda.
 
 ### Documentación
 
@@ -35,6 +35,11 @@ git commit -m "acción" # "n" files changed"
 git push
 ```
 
+En caso de hacer cambios en GitHub y tener que actualizarlos en VSC
+```ruby
+git pull origin main --allow-unrelated-histories
+```
+
 ## R-tree Spatial Indexing with Python (S2)
 
 Indexación espacial explicada en el demo de [Geoff Boeing](https://geoffboeing.com/2016/10/r-tree-spatial-index-python/) usando GeoPandas. En este caso usar los geodataframes usados anteriormente en este archivo.
@@ -52,12 +57,4 @@ Los desarrolladores dicen que la última versión es la v4. Puedo ver [este](htt
 
 Importante: para obtener los códigos de celda de cada objeto espacial a través del comando ```h3.geo_to_cells(geo, res = 10)``` de la biblioteca h3, la capa vectorial debe estar proyectada en un sistema de referencia de coordenadas geocentrico (WGS84, EPSG: 4326).
 
-## Conocimiento importante para seguir avanzando
-### Anaconda > Environments > Kernel con librerías cargadas en Anaconda PowerShell Prompt
-Librerías: pandas, geopandas, matplotlib, folium, shapely, H3.
-
-### Visual Studio Code > Jupyter Notebook > Python
-Librerías: pandas, geopandas, matplotlib, folium, h3.
-
-### ETL Software (Extract, Transform and Load) > FME Desktop
-Visualizador SIG de escritorio. Input, gestión, transformación y output de datos geoespaciales. Se puede trabajar con extensiones y librerías.
+#### Borrar esta parte, llevar directamente a la agenda en repositorio personal
