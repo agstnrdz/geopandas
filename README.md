@@ -19,6 +19,11 @@ git remote show origin
 git remote -v
 ```
 
+Verificar el directorio
+```ruby
+pwd
+```
+
 En caso de que rechace el push
 ```ruby
 git fetch origin
