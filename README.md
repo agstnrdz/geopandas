@@ -1,32 +1,26 @@
 ## Introducción a GeoPandas usando Jupyter Notebook en Visual Studio Code
-
 ### Documentación
-
-Inicializar el repositorio
+##### Inicializar el repositorio
 ```ruby
 git init
 ```
-
-Cambiar de repositorio
+##### Cambiar de repositorio
 ```ruby
 git remote remove origin
 git remote add origin /url/
 ```
-
-Verificar el repositorio
+##### Verificar el repositorio
 ```ruby
 git remote show origin
 git remote -v
 ```
-
-Verificar el directorio
+##### Verificar el directorio
 ```ruby
 pwd
 ```
-
-Seleccionar el directorio de trabajo a utilizar
+##### Seleccionar el directorio de trabajo a utilizar en terminal
 ```ruby
-cd # Ejemplo: cd geopandas
+cd / Ejemplo: cd geopandas /
 ```
 
 En caso de que rechace el push
