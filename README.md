@@ -24,6 +24,11 @@ Verificar el directorio
 pwd
 ```
 
+Seleccionar el directorio de trabajo a utilizar
+```ruby
+cd # Ejemplo: cd geopandas
+```
+
 En caso de que rechace el push
 ```ruby
 git fetch origin
