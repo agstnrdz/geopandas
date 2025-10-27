@@ -1,48 +1,44 @@
 ## Introducción a GeoPandas usando Jupyter Notebook en Visual Studio Code
 ### Documentación
-##### Inicializar el repositorio
+* ##### Inicializar el repositorio
 ```ruby
 git init
 ```
-##### Cambiar de repositorio
+* ##### Cambiar de repositorio
 ```ruby
 git remote remove origin
 git remote add origin /url/
 ```
-##### Verificar el repositorio
+* ##### Verificar el repositorio
 ```ruby
 git remote show origin
 git remote -v
 ```
-##### Verificar el directorio
+* ##### Verificar el directorio
 ```ruby
 pwd
 ```
-##### Seleccionar el directorio de trabajo a utilizar en terminal
+* ##### Seleccionar el directorio de trabajo a utilizar en terminal
 ```ruby
 cd / Ejemplo: cd geopandas /
 ```
-
-En caso de que rechace el push
+* ##### En caso de que rechace el push
 ```ruby
 git fetch origin
 git reset --hard origin/main
 git push -f origin main
 ```
-
-Agregar commits a GitHub
+* ##### Agregar commits a GitHub
 ```ruby
 git status
 git add .
 git commit -m "acción" # "n" files changed"
 git push
 ```
-
-En caso de hacer cambios en GitHub y tener que actualizarlos en VSC
+* ##### En caso de hacer cambios en GitHub y tener que actualizarlos en VSC
 ```ruby
 git pull origin main --allow-unrelated-histories
 ```
-
 ### R-tree Spatial Indexing with Python (S2)
 
 Indexación espacial explicada en el demo de [Geoff Boeing](https://geoffboeing.com/2016/10/r-tree-spatial-index-python/) usando GeoPandas. En este caso usar los geodataframes usados anteriormente en este archivo.
